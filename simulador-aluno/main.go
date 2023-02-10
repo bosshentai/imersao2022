@@ -26,20 +26,4 @@ func main() {
 		fmt.Println(string(msg.Value))
 	}
 
-	//producer := kafka.NewKafkaProducer()
-	//kafka.Publish("ola", "readtest", producer)
-
-	//for {
-	//	_ = 1
-	//}
-
-	//route := route2.Route{
-	//	ID:       "1",
-	//	ClientID: "1",
-	//	//Positions: nil,
-	//}
-	//
-	//route.LoadPositions()
-	//stringjson, _ := route.ExportJsonPositions()
-	//fmt.Println(stringjson[0])
 }
